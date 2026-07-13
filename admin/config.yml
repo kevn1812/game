@@ -2,6 +2,4 @@ backend:
   name: github
   repo: kevn1812/game
   branch: master
-  base_url: https://api.github.com
-  auth_endpoint: https://github.com/login/oauth/authorize
-  client_id: "Ov23li3J256IoRmpD00E"
+  base_url: https://decap-cms-proxy.herokuapp.com
