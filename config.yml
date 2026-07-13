@@ -1,6 +1,6 @@
 backend:
-  name: game
-  repo: kevn1812
+  name: github
+  repo: kevn1812/game
   branch: master
 
 media_folder: "assets/images"
@@ -16,3 +16,4 @@ collections:
       - {label: "اسم اللعبة", name: "title", widget: "string"}
       - {label: "صورة اللعبة", name: "image", widget: "image"}
       - {label: "رابط التحميل", name: "link", widget: "string"}
+      
