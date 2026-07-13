@@ -1,5 +1,17 @@
 backend:
   name: github
   repo: kevn1812/game
-  branch: master
-  base_url: https://decap-cms-proxy.herokuapp.com
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "games"
+    label: "Games"
+    folder: "games"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
