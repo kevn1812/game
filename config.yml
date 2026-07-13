@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: kevn1812/game
+  name: game
+  repo: kevn1812
   branch: master
 
 media_folder: "assets/images"
