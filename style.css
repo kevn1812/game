@@ -1,0 +1,23 @@
+body {
+background-color: #f0f0f0;
+font-family: Arial, sans-serif;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333333;
+color: #ffffff;
+padding: 20px;
+}
+
+.game-card {
+background-color: #ffffff;
+border: 1px solid #cccccc;
+padding: 20px;
+margin: 20px auto;
+width: 300px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
