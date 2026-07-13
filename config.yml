@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: kevn1812/game
   branch: master
 
 media_folder: "assets/images"
