@@ -5,17 +5,3 @@ backend:
   base_url: https://api.github.com
   auth_endpoint: https://github.com/login/oauth/authorize
   client_id: "Ov23li3J256IoRmpD00E"
-
-media_folder: "assets/images"
-public_folder: "assets/images"
-
-collections:
-  - name: "games"
-    label: "الألعاب"
-    folder: "games"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "اسم اللعبة", name: "title", widget: "string"}
-      - {label: "صورة اللعبة", name: "image", widget: "image"}
-      - {label: "رابط التحميل", name: "link", widget: "string"}
